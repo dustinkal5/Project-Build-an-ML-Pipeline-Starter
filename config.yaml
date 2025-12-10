@@ -34,5 +34,7 @@ modeling:
     n_jobs: -1
     criterion: squared_error
     max_features: 0.5
+    max_tfidf_features: 5
+    val_size: 0.2
     # DO not change the following
     oob_score: true
